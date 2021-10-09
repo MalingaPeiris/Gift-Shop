@@ -1,0 +1,108 @@
+.productDisplayImage {
+  width: 100%;
+  height: 230px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  object-fit: cover;
+}
+
+.newButton {
+  border-style: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 39px;
+  box-shadow: 2px 2px 20px -1px #757575;
+}
+
+.viewMoreButton {
+  margin-top: 20px;
+  background: #1c128c;
+  border-style: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 2px 2px 8px rgba(117,117,117,0.71);
+  color: #ffffff;
+}
+
+.priceHeading {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  background: #c6c6c6;
+}
+
+.productDescription {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #212121;
+  font-weight: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.productName {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  color: rgb(67,67,67);
+  margin-bottom: 8px;
+  margin-top: 22px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.productContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+.productCol {
+  padding: 0px;
+}
+
+.productDisplaySection {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  background: rgba(220,53,69,0);
+}
+
+.productRow {
+  margin: 0px;
+  background: rgba(255,0,0,0.25);
+  border-radius: 5px;
+}
+
+.productCard {
+  width: 21rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 2px 2px 16px 8px rgba(0,0,0,0.1);
+  min-width: 300px;
+  border-style: none;
+  max-width: 100%;
+  margin: 16px;
+}
+
+#homeProductCard {
+  max-width: 16rem;
+  margin: 0px;
+  transform: scale(0.7);
+}
+
+.homeProductCol {
+  padding: 1%;
+}
+

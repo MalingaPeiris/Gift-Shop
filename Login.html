@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="assets/css/singleProductDisplay.css">
 </head>
 
-<body>
+<body class="loginBody">
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-danger shadow navigation-clean">
         <div class="container"><a class="navbar-brand" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -44,7 +44,95 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav><div role="dialog" tabindex="-1" class="loginDiv" id="modalLogin">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div id="toggle-box" class="toggle-box">
+        <div id="btn-bg"></div>
+        <button class="toggle-button" type="button" onclick="login()">
+          LOGIN</button
+        ><button class="toggle-button" type="button" onclick="signup()">
+          SIGNUP
+        </button>
+      </div>
+      <div class="modal-body login-modal">
+        <form id="login" class="p-4 login-form" method="post">
+          <input
+            type="text"
+            class="form_control"
+            placeholder="Phone Number"
+            autofocus
+            required
+          /><input
+            type="password"
+            class="form_control"
+            required
+            placeholder="Password"
+          />
+          <div class="form-group mb-3">
+            <button
+              class="btn btn-success d-block w-100 login-button"
+              type="submit"
+            >
+              LOGIN
+            </button>
+          </div>
+        </form>
+        <form id="signup" class="p-4 login-form" method="post">
+          <input
+            type="text"
+            class="form_control"
+            placeholder="Phone Number"
+            autofocus
+            required
+          /><input
+            type="password"
+            class="form_control"
+            required
+            placeholder="Password"
+          /><input
+            type="password"
+            class="form_control"
+            required
+            placeholder="Confirm Password"
+          />
+          <div class="form-group mb-3">
+            <button
+              class="btn btn-success d-block w-100 login-button"
+              type="submit"
+              onclick="check()"
+            >
+              SIGN UP
+            </button>
+          </div>
+        </form>
+        <form id="check" class="p-4 login-form" method="post">
+          <p>
+            Please enter the Security code that you have recieved.<br />
+            phone number : <span class="phone-number"> 07* *** ****</span>
+          </p>
+          <input
+            type="text"
+            class="form_control code"
+            placeholder="Enter Code"
+            autofocus
+            required
+          />
+          <div class="form-group mb-3">
+            <button
+              class="btn btn-success d-block w-100 login-button"
+              type="submit"
+            
+            >
+              Verify Secutity Code
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

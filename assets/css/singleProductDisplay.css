@@ -1,0 +1,244 @@
+.singleProductDiaplayCol3 {
+  background: rgb(16,24,193);
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.singleProductDisplayCol1 {
+  box-shadow: 8px 13px 25px #D9D9D982;
+  background: rgba(178,181,255,0.58);
+  border-radius: 50px;
+}
+
+.singleProductDisplayMainImage {
+  width: 100%;
+  box-shadow: 8px 13px 25px #D9D9D982;
+}
+
+.singleProductDisplayProductHeading {
+  font-size: 32px;
+  color: rgb(67,67,67);
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .singleProductDisplayProductHeading {
+    font-size: 24px;
+    color: rgb(67,67,67);
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+  }
+}
+
+.singleProductDisplayProductPricePara {
+  font-size: 24px;
+  color: #f1f1f1;
+  width: 140px;
+  max-width: 99%;
+  background: #fc3232;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.singleProductDisplayProductDescriptionPara {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.singleProductDisplayMainContainer {
+  padding: 1%;
+  border-radius: 10px;
+  margin-top: 0;
+  background: #ffffff;
+}
+
+.singleProductMiniImageCol {
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.singleProductDisplayCol2 {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.singleProductMiniImage {
+  object-fit: contain;
+  width: 100%;
+}
+
+.singleProductPriceSpan {
+  color: rgb(255,255,255);
+}
+
+.singleProductBuyDiv {
+  margin-bottom: 20px;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+  width: 160px;
+  height: 40px;
+}
+
+.buyNowButton {
+  box-shadow: 8px 13px 25px #D9D9D982;
+  max-height: 40px;
+  height: 100%;
+  min-height: 40px;
+  margin: 0px;
+  max-width: 500px;
+  min-width: 280px;
+  width: 100%;
+  margin-right: 3px;
+}
+
+.row.singleProductDisplayMainRow {
+  margin: 0px;
+}
+
+.singleProductBuyInDiv {
+}
+
+.singleProductDisplayMainDiv {
+  padding-top: 50px;
+  background: linear-gradient(rgba(5,0,255,0.5) 1%, white), url("../../assets/img/colorful-present-gifts-seamless-pattern-background-vector_37112-200.jpg");
+}
+
+.singleProductDisplayBg {
+  position: absolute;
+  z-index: -1;
+}
+
+.singleProductDisplayLocationDiv {
+  background: #ffffff;
+}
+
+.singleProductDisplayLocationPara {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  background: #f74343;
+  padding-left: 20px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  min-width: 280px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+@media (max-width: 675px) {
+  .singleProductDisplayLocationPara {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    background: #f74343;
+    padding-left: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 280px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+  }
+}
+
+.singleProductDisplayCol3 {
+  background: #ffe2e5;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.singleProductDisplayMainContainer {
+  padding: 0px;
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.singleProductDisplayCol {
+  padding: 1%;
+}
+
+.singleProductDisplayMainImage {
+  width: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.productMiniImageCol {
+}
+
+.singleProductDisplayRow {
+  margin: 0px;
+  padding: 1%;
+  background: linear-gradient(rgba(255,255,255,0), rgb(255,255,255)), url("../../assets/img/daria-shevtsova-d7v2EXFJcWY-unsplash.jpg") center / cover no-repeat;
+  padding-right: 5%;
+  padding-left: 4%;
+}
+
+.relatedProductHeadingContainer {
+  margin-top: 20px;
+  background: url("../../assets/img/ekaterina-shevchenko-ZLTlHeKbh04-unsplash.jpg") right / cover no-repeat, #ffffff;
+  padding: 1%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.relatedProductHeading {
+  background: rgba(255,255,255,0);
+  color: rgb(0,0,0);
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 1px 1px 1px rgb(255,255,255);
+}
+
+.socialMediaDiv {
+  background: #f4f4f4;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  border-radius: 20px;
+  padding: 5px;
+  width: 120px;
+  height: 40px;
+}
+
+.socialMediaIcon {
+  color: var(--indigo);
+  font-size: 24px;
+}
+
+.socialMediaIconIG {
+  color: rgb(255,0,0);
+  font-size: 24px;
+}
+
+.socialMediaIconTK {
+  color: rgb(255,0,184);
+  font-size: 24px;
+}
+
+.relatedProductHeadingDiv {
+}
+
+.singleProductDisplayLocationContainer {
+  margin-top: 100px;
+}
+
+.singleProductDisplayPriceDiv {
+}
+
+.singleProductDisplayDiscountPara {
+  color: var(--red);
+  text-decoration: line-through;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
