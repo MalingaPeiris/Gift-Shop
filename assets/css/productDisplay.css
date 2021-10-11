@@ -64,6 +64,9 @@
 .productContainer {
   padding: 0px;
   margin: 0px;
+  max-width: 1140px;
+  min-width: 320px;
+  width: 100%;
 }
 
 .productCol {
@@ -79,7 +82,7 @@
 
 .productRow {
   margin: 0px;
-  background: rgba(255,0,0,0.25);
+  background: rgba(255,203,203,0.25);
   border-radius: 5px;
 }
 

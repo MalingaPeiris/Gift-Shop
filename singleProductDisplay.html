@@ -7,21 +7,35 @@
     <title>Gifts-Shop</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Actor">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aguafina+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Berkshire+Swash">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Beth+Ellen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bowlby+One+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/animated-services.css">
     <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
     <link rel="stylesheet" href="assets/css/card-3-column-animation-shadows-images.css">
     <link rel="stylesheet" href="assets/css/Card-Store.css">
     <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
     <link rel="stylesheet" href="assets/css/Check-Out-Page-V100.css">
     <link rel="stylesheet" href="assets/css/check-out.css">
+    <link rel="stylesheet" href="assets/css/contactUs.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/Image-Tab-Gallery-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/indexImages.css">
     <link rel="stylesheet" href="assets/css/Login.css">
     <link rel="stylesheet" href="assets/css/Modal-Login-form.css">
     <link rel="stylesheet" href="assets/css/Model-Card-Style-1.css">
@@ -30,63 +44,65 @@
     <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
     <link rel="stylesheet" href="assets/css/productDisplay.css">
     <link rel="stylesheet" href="assets/css/purchaseSuccessful.css">
+    <link rel="stylesheet" href="assets/css/Responsive-Image-Grid.css">
+    <link rel="stylesheet" href="assets/css/services.css">
     <link rel="stylesheet" href="assets/css/singleProductDisplay.css">
+    <link rel="stylesheet" href="assets/css/Social-Icons.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md fixed-top bg-danger shadow navigation-clean">
-        <div class="container"><a class="navbar-brand" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" href="index.html">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="#"><button class="btn btn-light" type="button">LOG IN</button></a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="container singleProductDisplayLocationContainer">
-        <p class="singleProductDisplayLocationPara">Home / Products / Product Description&nbsp;</p>
-    </div>
-    <div class="container-fluid top-container singleProductDisplayMainContainer">
-        <div class="row singleProductDisplayRow">
-            <div class="col-12 col-md-6 col-xl-4 offset-xl-2">
-                <div class="img-container"><img class="rounded" id="expandedImg" style="width:100%" src="assets/img/img1-min.jpg">
-                    <div id="imgtext"></div>
+    <div class="singleProductDiv">
+        <div class="container singleProductConatainer">
+            <div class="row singleProductRow">
+                <div class="col-md-6">
+                    <div class="img-container"><img class="rounded" id="expandedImg" style="width:100%" src="assets/img/img1-min.jpg">
+                        <div id="imgtext"></div>
+                    </div>
+                    <div class="row img-row" style="padding-right: 10px;padding-left: 10px;">
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img1-min.jpg" onclick="myFunction(this);" alt="image 1"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img2-min.jpg" onclick="myFunction(this);" alt="image 2"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img3-min.jpg" onclick="myFunction(this);" alt="image 3"></div>
+                        <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img4-min.jpg" onclick="myFunction(this);" alt="image 4"></div>
+                    </div>
                 </div>
-                <div class="row img-row" style="padding-right: 10px;padding-left: 10px;">
-                    <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img1-min.jpg" onclick="myFunction(this);" alt="image 1"></div>
-                    <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img2-min.jpg" onclick="myFunction(this);" alt="image 2"></div>
-                    <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img3-min.jpg" onclick="myFunction(this);" alt="image 3"></div>
-                    <div class="col column"><img class="img-thumbnail img-fluid" src="assets/img/img4-min.jpg" onclick="myFunction(this);" alt="image 4"></div>
+                <div class="col-md-6 singleProductContainer">
+                    <h1 class="singleProductDisplayProductHeading">Product Name</h1><img src="assets/img/5-star-rating.svg" width="120px" style="padding-bottom: 5px;">
+                    <div class="d-flex align-items-xl-center singleProductDisplayPriceDiv">
+                        <h2 class="singleProductDisplayProductPricePara">$&nbsp;<span class="singleProductPriceSpan">10000.99</span></h2>
+                        <p class="text-center singleProductDisplayDiscountPara">$ 100000.99</p>
+                    </div>
+                    <hr>
+                    <p>Here goes your product description. Try to add your main keywords but remember that this is a text for humans, not robots. So write easy to read sentences that make sense.</p>
+                    <div class="d-flex justify-content-between align-items-center singleProductBuyDiv">
+                        <p>Quantity:&nbsp;</p><input type="number" placeholder="Qty" min="1" max="99" value="1" name="qty">
+                    </div><a class="btn btn-danger d-xl-flex justify-content-xl-center align-items-xl-center buyNowButton" role="button" href="checkOut.html">BUY NOW !</a>
+                    <hr>
+                    <p style="font-size: 20px;">Special Features</p>
+                    <ul>
+                        <li>Fit type: men, women, kids<br></li>
+                        <li>Sizes: XS to 4XL<br></li>
+                        <li>Machine wash cold, dry low heat<br></li>
+                        <li>Double-needle sleeve and bottom hem<br></li>
+                        <li>Lightweight<br></li>
+                        <li>Classic fit<br></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-xl-4 offset-xl-0 singleProductDisplayCol3">
-                <h1 class="singleProductDisplayProductHeading">Product Name</h1><img src="assets/img/5-star-rating.svg" width="120px" style="padding-bottom: 5px;">
-                <div class="d-flex align-items-xl-center singleProductDisplayPriceDiv">
-                    <h2 class="singleProductDisplayProductPricePara">$&nbsp;<span class="singleProductPriceSpan">10000.99</span></h2>
-                    <p class="text-center singleProductDisplayDiscountPara">$ 100000.99</p>
-                </div>
-                <hr>
-                <p>Here goes your product description. Try to add your main keywords but remember that this is a text for humans, not robots. So write easy to read sentences that make sense.</p>
-                <div class="d-flex justify-content-between align-items-center singleProductBuyDiv">
-                    <p>Quantity:&nbsp;</p><input type="number" placeholder="Qty" min="1" max="99" value="1" name="qty">
-                </div><a class="btn btn-danger d-xl-flex justify-content-xl-center align-items-xl-center buyNowButton" role="button" href="checkOut.html">BUY NOW !</a>
-                <hr>
-                <p style="font-size: 20px;">Special Features</p>
-                <ul>
-                    <li>Fit type: men, women, kids<br></li>
-                    <li>Sizes: XS to 4XL<br></li>
-                    <li>Machine wash cold, dry low heat<br></li>
-                    <li>Double-needle sleeve and bottom hem<br></li>
-                    <li>Lightweight<br></li>
-                    <li>Classic fit<br></li>
-                </ul>
             </div>
         </div>
     </div>
-    <div class="container relatedProductHeadingContainer">
-        <div class="d-flex justify-content-between align-items-xl-center relatedProductHeadingDiv">
+    <div class="container d-flex d-sm-flex d-md-flex d-lg-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center relatedProductHeadingContainer">
+        <div class="d-flex flex-column justify-content-between align-items-center align-items-sm-center align-items-md-center align-items-lg-center align-items-xl-center relatedProductHeadingDiv">
             <h1 class="relatedProductHeading">Related Products</h1>
             <div class="d-flex justify-content-between align-items-center socialMediaDiv" data-aos="fade-down" data-aos-duration="600" data-aos-delay="500"><a href="#"><i class="fab fa-facebook socialMediaIcon"></i></a><a href="#"><i class="fab fa-instagram socialMediaIconIG"></i></a><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-tiktok socialMediaIconTK">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>

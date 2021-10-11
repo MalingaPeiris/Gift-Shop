@@ -1,0 +1,105 @@
+.indexDiv1 {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  margin-top: 60px;
+  background: linear-gradient(rgba(0,0,0,0), rgb(255,255,255)), linear-gradient(90deg, var(--red), #f9606f 100%);
+}
+
+.landingContainer {
+  padding: 3%;
+  max-width: 1140px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.indexGiftImage {
+  width: 100%;
+  height: 100%;
+  max-width: 500px;
+}
+
+.indexMainHeading {
+  font-size: 48px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  color: rgb(255,255,255);
+  text-shadow: 2px 2px 5px rgb(255,67,67);
+}
+
+@media (max-width: 576px) {
+  .indexMainHeading {
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    text-shadow: 2px 2px 5px rgb(255,67,67);
+    padding-top: 20px;
+  }
+}
+
+.indexMainHeadingSpan {
+  text-shadow: 2px 2px 4px rgb(255,255,255);
+  color: rgb(255,42,42);
+  font-size: 80px;
+  font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 576px) {
+  .indexMainHeadingSpan {
+    text-shadow: 2px 2px 4px rgb(255,255,255);
+    color: rgb(255,42,42);
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.indexgeetStartedButton {
+  margin-top: 20px;
+}
+
+.indexMainDiv1 {
+  max-width: 665px;
+  min-width: 180px;
+  width: 100%;
+}
+
+.aboutUsContainer {
+}
+
+.adContainer {
+  margin-top: 100px;
+  display: flex;
+  place-items: center center;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.adHeading {
+  text-align: center;
+  font-family: Cookie, cursive;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 120px;
+  background: url("../../assets/img/pexels-kenneth-carpina-1705287.jpg") center / cover no-repeat;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@media (max-width: 576px) {
+  .adHeading {
+    text-align: center;
+    font-family: Cookie, cursive;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 60px;
+    background: url("pexels-secret-garden-93ere1176.jpg") center / cover no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+#homeProducts {
+  background: #fff7f7;
+}
+

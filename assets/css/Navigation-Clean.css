@@ -80,3 +80,8 @@
   color: inherit;
 }
 
+.nvbarLoginButton {
+  height: 30px;
+  padding: 3px 10px;
+}
+

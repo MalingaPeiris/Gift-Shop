@@ -150,9 +150,13 @@
 }
 
 .singleProductDisplayCol3 {
-  background: #ffe2e5;
-  padding: 2%;
+  background: #ffffff;
+  padding: 1%;
   border-radius: 10px;
+  margin-left: 2%;
+  width: 100%;
+  min-width: 320px;
+  max-width: 50%;
 }
 
 .singleProductDisplayMainContainer {
@@ -160,6 +164,7 @@
   max-width: 1920px;
   min-width: 320px;
   width: 100%;
+  margin-top: 60px;
 }
 
 .singleProductDisplayCol {
@@ -177,27 +182,45 @@
 
 .singleProductDisplayRow {
   margin: 0px;
-  padding: 1%;
-  background: linear-gradient(rgba(255,255,255,0), rgb(255,255,255)), url("../../assets/img/daria-shevtsova-d7v2EXFJcWY-unsplash.jpg") center / cover no-repeat;
-  padding-right: 5%;
-  padding-left: 4%;
+  padding-right: 12%;
+  padding-left: 12%;
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
 }
 
 .relatedProductHeadingContainer {
   margin-top: 20px;
-  background: url("../../assets/img/ekaterina-shevchenko-ZLTlHeKbh04-unsplash.jpg") right / cover no-repeat, #ffffff;
+  background: #ffffff;
   padding: 1%;
   border-radius: 10px;
   margin-bottom: 5px;
+  max-width: 1140px;
+  min-width: 320px;
 }
 
 .relatedProductHeading {
   background: rgba(255,255,255,0);
   color: rgb(0,0,0);
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
+  font-family: Cookie, cursive;
+  font-weight: normal;
   font-style: normal;
-  text-shadow: 1px 1px 1px rgb(255,255,255);
+  text-shadow: 1px 1px 3px rgb(255,0,0);
+  font-size: 75px;
+  line-height: 50px;
+}
+
+@media (max-width: 576px) {
+  .relatedProductHeading {
+    background: rgba(255,255,255,0);
+    color: rgb(0,0,0);
+    font-family: Cookie, cursive;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: 1px 1px 3px rgb(255,0,0);
+    font-size: 60px;
+    line-height: 50px;
+  }
 }
 
 .socialMediaDiv {
@@ -240,5 +263,34 @@
   font-size: 20px;
   margin-left: 20px;
   margin-bottom: 0px;
+}
+
+.singleProductDisplayMainCol {
+  margin: 0px;
+  max-width: 500px;
+  width: 100%;
+  min-width: 320px;
+}
+
+.row.singleProductRow {
+  margin-top: 50px;
+}
+
+.container.singleProductConatainer {
+}
+
+.col-md-6.singleProductContainer {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2%;
+}
+
+.singleProductDiv {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  background: linear-gradient(rgba(255,255,255,0), white), url("../../assets/img/daria-shevtsova-d7v2EXFJcWY-unsplash.jpg") center / cover no-repeat, rgb(255,255,255);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 

@@ -1,0 +1,45 @@
+.indexImagesRow1 {
+  height: 400px;
+  margin: 0px;
+}
+
+.indexImagesContainer1 {
+  height: 100%;
+  margin-top: 100px;
+  padding: 1px;
+}
+
+.indexImagesCol {
+  padding: 10px;
+  overflow: hidden;
+  position: static;
+  object-fit: contain;
+  height: 100%;
+}
+
+.indexImagees {
+  box-shadow: 3px 8px 15px #D9D9D982;
+  border-radius: 10px;
+  max-width: 400px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.indexImagesContainer2 {
+  margin-bottom: 100px;
+  margin-top: 10px;
+  padding: 1px;
+}
+
+.indexImagesRow2 {
+  margin: 0px;
+  height: 100%;
+  max-width: 1138px;
+  min-width: 320px;
+  width: 100%;
+}
+
+.imageGrid {
+  width: 1140px;
+}
+

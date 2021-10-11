@@ -1,0 +1,15 @@
+.serviceIcon {
+  margin-bottom: 20px;
+  color: rgb(228,60,92);
+  font-size: 48px;
+}
+
+.serviceDescriptionPara {
+  width: 60%;
+  margin-top: 10px;
+}
+
+.serviceHeading {
+  color: #75aadb;
+}
+
